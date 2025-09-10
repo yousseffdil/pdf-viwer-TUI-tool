@@ -1,0 +1,9 @@
+[package]
+name = "viewerpdf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pdf-extract = "0.6"   # Tu librería original que funciona
+crossterm = "0.27"    # Para controles de terminal
+textwrap = "0.16"     # Para formatear texto
